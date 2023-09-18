@@ -1,1 +1,2 @@
 # ECG_Compression
+This paper proposes lossless methodologies for ECG (electrocardiograms) data compression. An ECG can be seen as almost periodic signal, where it is possible to find many similarities between heart beats. These similarities are explored by the proposal’s compressions. The dictionary is able to incorporate new patterns, in order to assure the algorithm adapts to changes in signal morphology.
