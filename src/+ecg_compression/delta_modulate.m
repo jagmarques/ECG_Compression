@@ -1,7 +1,5 @@
 function deltaSignal = delta_modulate(signal)
-%DELTA_MODULATE Compute the first-order difference of the signal.
-%   deltaSignal = DELTA_MODULATE(signal) returns the discrete derivative of
-%   SIGNAL, which emulates delta modulation.
+% Return the discrete derivative to mimic delta modulation.
 
 arguments
     signal (:, 1) double

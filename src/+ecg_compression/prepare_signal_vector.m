@@ -1,7 +1,5 @@
 function prepared = prepare_signal_vector(signal, quantizationBits)
-%PREPARE_SIGNAL_VECTOR Normalize the signal for entropy estimation.
-%   prepared = PREPARE_SIGNAL_VECTOR(signal, quantizationBits) converts the
-%   input SIGNAL into integers representing quantization bins.
+% Convert the waveform into quantization bins for entropy math.
 
 arguments
     signal (:, 1) double

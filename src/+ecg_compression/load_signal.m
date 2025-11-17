@@ -1,7 +1,5 @@
 function signal = load_signal(filePath)
-%LOAD_SIGNAL Load a normalized ECG signal from disk.
-%   signal = LOAD_SIGNAL(filePath) reads a column vector from either a text
-%   or CSV file. Missing values are removed automatically.
+% Read a normalized ECG signal vector from disk.
 
 arguments
     filePath (1, :) char

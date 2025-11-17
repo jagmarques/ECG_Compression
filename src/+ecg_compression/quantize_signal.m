@@ -1,7 +1,5 @@
 function quantized = quantize_signal(signal, bits)
-%QUANTIZE_SIGNAL Apply symmetric uniform quantization to the signal.
-%   quantized = QUANTIZE_SIGNAL(signal, bits) clamps SIGNAL to [-1, 1],
-%   rescales it to BITS resolution, and returns the quantized waveform.
+% Apply symmetric uniform quantization to the waveform.
 
 arguments
     signal (:, 1) double

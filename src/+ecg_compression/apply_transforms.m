@@ -1,13 +1,5 @@
 function [dctSignal, fftSignal, dstSignal, metrics] = apply_transforms(signal, opts)
-%APPLY_TRANSFORMS Apply DCT, FFT, and DST based compression heuristics.
-%   [dctSignal, fftSignal, dstSignal, metrics] = APPLY_TRANSFORMS(signal)
-%   thresholds the transform coefficients of SIGNAL and reconstructs the
-%   waveform for each transform. METRICS includes the compression settings
-%   and the percent root-mean-square difference (PRD) for every transform.
-%
-%   ... = APPLY_TRANSFORMS(signal, opts) allows configuring optional
-%   behavior via name-value arguments. Supported options:
-%       CreatePlots  - when true, plot the reconstructed signals and errors.
+% Apply DCT, FFT, and DST heuristics with optional plotting.
 
 arguments
     signal (:, 1) double

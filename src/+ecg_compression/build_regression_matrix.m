@@ -1,9 +1,5 @@
 function [predictors, targets] = build_regression_matrix(signal, historyLength)
-%BUILD_REGRESSION_MATRIX Assemble lagged samples for linear prediction.
-%   [predictors, targets] = BUILD_REGRESSION_MATRIX(signal, historyLength)
-%   creates a matrix where each row of PREDICTORS contains HISTORYLENGTH
-%   consecutive samples of SIGNAL. TARGETS contains the value that follows
-%   each row, enabling standard linear regression training.
+% Assemble lagged samples so a linear model can learn future values.
 
 arguments
     signal (:, 1) double

@@ -1,7 +1,5 @@
 function code = huffman_encode(signal)
-%HUFFMAN_ENCODE Apply MATLAB's huffman coding helper to the signal.
-%   code = HUFFMAN_ENCODE(signal) returns a vector containing the encoded
-%   bitstream.
+% Encode the waveform with MATLAB's Huffman helper.
 
 arguments
     signal (:, 1) double
