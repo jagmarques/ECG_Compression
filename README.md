@@ -43,8 +43,3 @@ The returned `results` struct exposes:
 - `bitCounts` – total bits required by every representation
 - `bitsPerSample` – entropy estimates for the original/delta/Huffman variants
 - `compressionRates` – convenience ratios (original bits divided by alternative bits)
-
-## Testing and linting
-
-This project currently targets MATLAB scripts without an automated CI harness.
-If you add unit tests in the future, prefer MATLAB's `runtests` framework and update this section with the relevant command.
