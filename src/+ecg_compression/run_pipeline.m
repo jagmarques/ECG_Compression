@@ -1,13 +1,5 @@
 function results = run_pipeline(signalPath, opts)
-%RUN_PIPELINE Execute the ECG compression showcase.
-%   results = RUN_PIPELINE(signalPath) loads the signal located at
-%   signalPath and evaluates multiple lossless and lossy compression
-%   strategies.
-%
-%   results = RUN_PIPELINE(___, opts) overrides optional parameters using
-%   name-value syntax. Supported options:
-%       LinearHistory     - number of past samples used by the linear model
-%       QuantizationBits  - bit depth applied before computing entropies
+% Execute the ECG compression pipeline and collect metrics.
 
 arguments
     signalPath (1, :) char

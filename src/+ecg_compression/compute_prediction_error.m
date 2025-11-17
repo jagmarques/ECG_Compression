@@ -1,8 +1,5 @@
 function errorSignal = compute_prediction_error(signal, prediction, historyLength)
-%COMPUTE_PREDICTION_ERROR Calculate the residual after regression.
-%   errorSignal = COMPUTE_PREDICTION_ERROR(signal, prediction, historyLength)
-%   returns the difference between SIGNAL and its predicted values,
-%   accounting for the lag introduced by HISTORYLENGTH samples.
+% Return the residual between the waveform and its predictions.
 
 arguments
     signal (:, 1) double

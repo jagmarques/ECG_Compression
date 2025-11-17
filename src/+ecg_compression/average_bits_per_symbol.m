@@ -1,11 +1,5 @@
 function avgBits = average_bits_per_symbol(symbols)
-%AVERAGE_BITS_PER_SYMBOL Estimate the number of bits required per symbol.
-%   avgBits = AVERAGE_BITS_PER_SYMBOL(symbols) computes the Shannon entropy
-%   of the vector SYMBOLS expressed in bits per symbol. An empty input
-%   returns zero to simplify downstream arithmetic.
-%
-%   This helper is used to calculate the expected storage requirements for
-%   the quantized ECG signal and all derived representations.
+% Estimate the Shannon entropy of the provided symbol vector.
 
 arguments
     symbols (:, 1) double
